@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:none;
+  outline: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+button{
+    cursor:pointer;
+}
+.container{
+    position: relative;
+    top:auto;
+    left:auto;
+    margin:auto;
+}
+.container header{
+    display: inline-flex;
+    padding: 2rem 5rem;
+    gap:20px;
+}
+.container header i{
+    font-size: 2rem;
+    color:#393979;
+}
+.container header h2{
+    color:#9299df;
+}
+.container header h2 span{
+    color:#393979;
+}
+.container header .cart{
+    position: relative;
+    left:15rem;
+    cursor: pointer;
+}
+.container header .cart span{
+    font-weight:700;
+    font-size:1.2rem;
+    color:#393979;
+}
+.input-content{
+    display: flex;
+    position: relative;
+    margin-top:1rem;
+    margin-left:5rem;
+    width:50rem;
+    height:4rem;
+    border-radius:10px;
+    box-shadow: -2px -1px 15px #393979;
+}
+.input-content input{
+    width:100%;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background:transparent;
+}
+.input-content input::placeholder{
+    font-size: 1.2rem;
+}
+.input-content i{
+    position: absolute;
+    top:1.4rem;
+    left:10px;
+    font-size:1.3rem;
+    cursor: pointer;
+}
+aside{
+    position: relative;
+    top:2rem;
+    left:2rem ;
+}
+aside h2{
+    margin-bottom: 1rem;
+    color:#393979;
+}
+aside .filter-btns button{
+    margin-left:20px;
+    padding:1rem 2rem;
+    font-size:1.1rem;
+    background:transparent;
+    color:#393979;
+    font-weight: 700;
+}
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:1rem;
+    left:1rem;
+    max-width:75rem;
+}
+.allproducts img{
+    width:15rem;
+}
+.allproducts .product{
+    width:18rem;
+    height:23rem;
+    box-shadow:-2px 3px 10px #9299df;
+    padding:1rem 1rem;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-bottom: 1rem;
+}
+.allproducts .product .image{
+    width:16rem;
+    padding:7px 7px;
+    background:rgb(205, 190, 248);
+}
+.allproducts .product h2{
+    text-align:start;
+}
+.allproducts .product .adjust{
+    display: flex;
+    justify-content: space-around;
+}
+.allproducts .product .adjust i{
+    font-size: 1.7rem;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    color:#393979;
+    padding:7px 6px;
+    transition: all 700ms ease;
+    cursor: pointer;
+}
+.allproducts .product .adjust i:hover{
+    background:#393979;
+    color:#ffff;
+}
+.allproducts .product .adjust h3{
+    font-size:1.4rem;
+    color:#03035cc7;
+    font-weight: 800;
+}
+.allproducts .product .adjust h3 span{
+    color:#f7be02;
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px) {
+    .input-content{
+        width:30rem auto;
+    }
+}

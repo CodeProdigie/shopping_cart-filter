@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAFS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css">
+</head>
+<body>
+   <div class="container">
+    <Header>
+        <i class="bx bxs-rocket"></i>
+        <h2>Shopping filter <span>search system</span></h2>
+        <div class="cart">
+            <i class="bx bx-cart"></i>
+            <span>0</span>
+        </div>
+    </Header>
+    <div class="input-content">
+     <i class="bx bx-search"></i>
+     <input type="text" placeholder="search for products" onkeyup="searchinput()" id="searchbar">
+    </div>
+    <aside>
+        <h2>Filter Categories</h2>
+        <div class="filter-btns">
+                <button id="all">All</button>
+                <button id="t-shirt">T-shirts</button>
+                <button id="nike-shoes">Nike shoes</button>
+        </div>
+        <div class="allproducts" id="allproducts">
+        </div>
+    </aside>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
